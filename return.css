@@ -1,0 +1,49 @@
+body{
+    font-size:40;
+    font-weight:bold;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    color: green ;
+    background-color:rgba(131, 86, 86, 0.664);
+  
+}
+.box{
+    display: grid;
+    grid-template-columns: 50%;
+    border:green;
+    width: 300px;
+    height:200px;
+    top:20%;
+    left:60%;
+    box-sizing: border-box;
+
+}
+img
+{
+    width: 720px;
+    height:200px;
+    
+}
+td{
+    border-style: solid;
+      border-color:rgb(0, 83, 11);
+}
+
+.btn{
+    
+    height:25px;
+    background-color:red;
+    color:green;
+    font-size:15px;
+    border-radius:12px;
+    top: 70%;
+}
+.table{
+    background-color: transparent;
+    color:rgba(108, 11, 235, 0.329);
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 320px;
+    height: 200px;
+    width: 700px;
+    }
