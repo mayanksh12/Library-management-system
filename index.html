@@ -1,0 +1,77 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="test.css" rel="stylesheet" type="text/css">
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script language="javascript" type="text/javascript">
+$( document ).ready(function() {
+	//// Loading Home Page Content ////
+	$("#home_page").click(function() {
+	  $('#div_content').load('home.html');
+	});
+	//// Loading About Us Page Content ////
+	$("#about_page").click(function() {
+	  $('#div_content').load('about.html');
+	});
+	//// Loading Contact Us Page Content ////
+	$("#contact_page").click(function() {
+	  $('#div_content').load('contact.html');
+	});
+	//// Loading Login Page Content ////
+	$("#login_page").click(function() {
+	  $('#div_content').load('login.html');
+	});
+	//// Loading Login Page Content ////
+	$("#gallery_page").click(function() {
+	  $('#div_content').load('gallery.html');
+	});
+	//// Loading Register Page Content ////
+	$("#register_page").click(function() {
+	  $('#div_content').load('register.html');
+	});
+	$('#div_content').load('home.html');
+});
+function showPage(page_name) {
+	$('#div_content').load(page_name);
+}
+</script>
+</head>
+<body>
+<div id="wrapper" class="container">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">Library Management</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="home.html" id="home_page">Home</a></li>
+				<li><a href="about.html" id="about_page">About Project</a></li>
+				<li><a href="gallery.html" id="gallery_page">Gallery</a></li>
+				<li><a href="register.html" id="register_page">Register</a></li>
+				<li><a href="login.html" id="login_page">Login</a></li>
+		    <li><a href="return.html"id="retun_page">Return</a></li>
+			
+			</ul>
+		</div>
+	</div>
+	<div id="div_content">
+	</div>
+	<div id="outerbox">
+			<div id=sliderbox>
+					<img src="s1.png">
+					<img src="s2.jpg">
+					<img src="s3.jpg">
+					<img src="s4.jpg">
+					</div>
+	</div>
+</div>
+</body>
+</html>
