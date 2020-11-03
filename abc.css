@@ -1,0 +1,18 @@
+div{
+    border-style: solid;
+    border-color:black;
+}
+.table{
+    background-color: transparent;
+    color:rgba(235, 11, 11, 0.329);
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 320px;
+    height: 200px;
+    width: 500px;
+    
+}
+td{
+    border-style: solid;
+      border-color: rgb(22, 0, 83);
+}
