@@ -1,0 +1,21 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            Function myfun(){
+                var a=document.getElementById("User_name").value;
+                if(a=="Nulls"){
+                    document.getElementById("Massage").innerHTML="*** please fill username";
+                    return false;
+                }
+            }
+        </script>
+        <form onsubmit="return myfun()">
+            User name:<input type="=text" id="User_name"value="">
+            <span id="Masssage"></span><br><br>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
