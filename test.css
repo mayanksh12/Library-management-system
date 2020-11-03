@@ -1,0 +1,29 @@
+#outerbox
+{
+	width:800px;
+	overflow: hidden;
+	margin-left: 130px;
+}
+#sliderbox
+{
+	position: relative;
+	width:3200px;
+	animation-name:hello;
+	animation-duration: 10s;
+	animation-iteration-count:infinite;
+}
+#sliderbox img{
+	float:left;
+}
+@keyframes hello
+{
+0%{left:0px;}
+20%{left:-800px;}
+25%{left:-800px;}
+40%{left: -1600px;}
+45%{left:-1600px;}
+60%{left: -2400px;}
+65%{left:-2400px;}
+80%{left: -3200px;}
+85%{left: -3200px;}
+}
