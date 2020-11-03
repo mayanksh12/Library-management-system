@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Login form</title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+    <script>
+    function check(){
+        var x= document.getElementById("username").value;
+        var y= document.getElementById("password").value;
+      if(x=='' || y=='')
+      alert("Incorrect entry");
+      else  if (x=="admin"&&y=="12345")
+        alert("Hello");
+    }
+    </script> 
+    
+    </head>
+        <body background = "Books-1_21.jpg">
+            <div class="loginbox">
+              <image src="images.png" class="Dimages" ></image>
+                <h1>Login Here</h1>
+                <table>
+                        <font>
+                    <p>User name</p>
+                  
+                    <input type="text"name=""placeholder="Enter User name" id="username">
+                  
+                    <p>Password</p>
+                    <input type="password"name=""placeholder="Enter Password"id="password">
+                    <input type="submit" name="" value="Login" onclick="check()"><br>
+                    <a href="index.html">Lost your password</a><br>
+                    <a href="#">Don't have an account</a>
+                    </font>
+                </table>
+
+            </div>
+
+        </body>
+
+</html>
