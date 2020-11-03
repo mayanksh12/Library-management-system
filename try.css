@@ -1,0 +1,17 @@
+body
+{
+    font-size:500;
+    font-weight:bold;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    color: green ;
+    background-color:rgba(131, 86, 86, 0.664);
+}
+.box{
+    display: grid;
+    grid-template-columns: 50%;
+    height:200px;
+    top:20%;
+    left:60%;
+    box-sizing: border-box;
+}
